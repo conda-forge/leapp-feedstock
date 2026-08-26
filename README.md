@@ -199,4 +199,5 @@ Feedstock Maintainers
 =====================
 
 * [@diegoferigo](https://github.com/diegoferigo/)
+* [@frlai](https://github.com/frlai/)
 
