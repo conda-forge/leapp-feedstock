@@ -1,6 +1,6 @@
 context:
   name: leapp
-  version: "0.6.1"
+  version: "0.7.0"
   build_number: 0
   # Upstream requires-python is >=3.10, but `fast-sugiyama` (a hard run dep of the
   # bundled `leapp_visualization`) is only published for python >=3.11, on both
@@ -15,7 +15,7 @@ package:
 
 source:
   url: https://github.com/nvidia-isaac/leapp/releases/download/v${{ version }}/leapp-${{ version }}.tar.gz
-  sha256: d2b1d3304808c7eaf7cd242135b566793355fa63833e74813d2f65f91be8228c
+  sha256: c8c80c34d8beeb205c041cf22578394314c1ee81b434eac53b1868eae541a3be
 
 build:
   noarch: python
