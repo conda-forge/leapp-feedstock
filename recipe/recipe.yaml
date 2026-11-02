@@ -1,6 +1,6 @@
 context:
   name: leapp
-  version: "0.7.2"
+  version: "0.8.0"
   build_number: 0
 
 package:
@@ -10,7 +10,7 @@ package:
 source:
   # Only 0.7.2 uses the accidental release-v tag prefix.
   url: https://github.com/nvidia-isaac/leapp/releases/download/${{ 'release-v0.7.2' if version == '0.7.2' else 'v' ~ version }}/leapp-${{ version }}.tar.gz
-  sha256: c746f86669ef5eade1cdb4af24ef1c94765e0b9202ad428c539846b57906c933
+  sha256: 7e02b099e1eb2c114ab8cabe5a6b0df0cb6688f26b4a8d2fbf02894e229cd839
 
 build:
   noarch: python
