@@ -25,7 +25,7 @@ requirements:
     - wheel
   run:
     - python >=${{ python_min }}
-    - pytorch >=2.6.0
+    - pytorch >=2.7.0
     - pyyaml >=6.0
     - onnx >=1.19.0
     - onnxruntime >=1.20.0
